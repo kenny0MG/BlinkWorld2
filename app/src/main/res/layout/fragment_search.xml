@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:forceDarkAllowed="false"
+    tools:context=".BottomFragmaent.Search.Fragment.SearchFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:elevation="4dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="40dp"
+                android:layout_height="5dp"
+                android:background="@drawable/line_round"
+
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.132" />
+
+            <EditText
+                android:id="@+id/search_search_fragment"
+                android:layout_width="320dip"
+                android:layout_height="70dip"
+                android:gravity="center"
+
+                android:hint="Search..."
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alata"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.6" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:layout_editor_absoluteY="85dp"
+            tools:listitem="@layout/friend_item" />
+
+        <TextView
+            android:id="@+id/search_friend_blink_blink_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:fontFamily="@font/alata"
+            android:text="Search BlinkBlink"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/search_friend_blink_blink_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/seriy"
+            android:fontFamily="@font/alata"
+            android:visibility="gone"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Find friends around the world" />
+
+        <TextView
+            android:id="@+id/not_result_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="55dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/alata"
+            android:textSize="23dp"
+            android:text="We couldn't find anything(" />
+    </LinearLayout>
+
+
+</LinearLayout>

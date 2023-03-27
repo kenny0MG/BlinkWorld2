@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BottomFragmaent.StoriesVideoView.Fragment.PhotoStoriesFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/itemVideoPlayerThumbnail_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/empty_box"
+            android:translationZ="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_full_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:maxWidth="300dp"
+            android:layout_marginBottom="5dp"
+            android:text="BlinkBlink"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:translationZ="3dp"
+            app:layout_constraintBottom_toBottomOf="@+id/full_screan_avatar_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/full_screan_avatar_photo"
+            app:layout_constraintTop_toTopOf="@+id/full_screan_avatar_photo" />
+
+        <ImageView
+            android:id="@+id/full_screan_avatar_photo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/image_chat"
+            android:translationZ="3dp"
+            app:layout_constraintBottom_toBottomOf="@+id/full_screan_close_photo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/full_screan_close_photo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:translationZ="3dp"
+
+            android:src = "@drawable/ic_arrow_back_foreground"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

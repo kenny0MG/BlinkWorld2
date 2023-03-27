@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Stas/.gradle/caches/transforms-3/c06db8cadc54d7dc97475b3f4d6828ef/transformed/mapbox-android-plugin-locationlayer-0.6.0/res/drawable/mapbox_user_bearing_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Stas/.gradle/caches/transforms-3/c06db8cadc54d7dc97475b3f4d6828ef/transformed/mapbox-android-plugin-locationlayer-0.6.0/res/drawable/mapbox_user_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Stas/.gradle/caches/transforms-3/c06db8cadc54d7dc97475b3f4d6828ef/transformed/mapbox-android-plugin-locationlayer-0.6.0/res/drawable/mapbox_user_stroke_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable-v24/ic_text.xml" value="0.1395" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable-v24/round_time_item_gallery.xml" value="0.1385" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/add_button.xml" value="0.1295" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/add_friend_button.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/annotation_map_friend.xml" value="0.146" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/annotation_stroke.xml" value="0.144" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/chat_background.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/continue_button.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/current_location_button.xml" value="0.137" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/edit_text_otp.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/edit_text_send_message.xml" value="0.1" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/empty_box.xml" value="0.1525" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/first_gradient_color_button.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/gradient_list.xml" value="0.1165" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1525" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/ic_circle_background.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/ic_circle_foreground.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/ic_launcher_background.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/image_chat.xml" value="0.1295" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/line_round.xml" value="0.165" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/main_button_bacground.xml" value="0.1125" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/main_gradient_bottom_map.xml" value="0.1" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/main_settings_image.xml" value="0.1205" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/map_marker.xml" value="0.1575" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/message_button.xml" value="0.1525" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/new_message_circle.xml" value="0.1525" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/new_user_application.xml" value="0.1575" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/round_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/round_sheet_dialog.xml" value="0.164" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/search_chat_textview.xml" value="0.164" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/search_main.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/second_gradient_color_background.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/state_text.xml" value="0.1575" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/stories_round.xml" value="0.1525" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/time_marker.xml" value="0.146" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/drawable/user_image_background.xml" value="0.1295" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_chat.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_login_registration.xml" value="0.25" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_main2.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_messages.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_name_registration.xml" value="0.1078125" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_no_gps_premission.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_otpverification.xml" value="0.22" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_preview.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_preview_video.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_registration_phone.xml" value="0.22" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_stories.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_stories_photo.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_stories_video.xml" value="0.22" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/activity_web.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/add_text_dialog.xml" value="0.5" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/bottom_sheet_choose_data.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/custom_progress_dialog.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_add_friends.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_chats.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_edit_profile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_edit_profile_fragment.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_edit_profile_list.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_messages.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_new_chat_or_group.xml" value="0.12" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_new_message_chat.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_other_user_profile.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_photo_stories.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_search.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_user_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/fragment_video_stories.xml" value="0.1375" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/friend_item.xml" value="0.22" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/item_chats.xml" value="0.22" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/item_gallery.xml" value="0.22" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/item_new_chat_or_group.xml" value="0.5" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/map_label_view.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/map_marker.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/message_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/new_chat_item.xml" value="0.22" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/user_map_annotation.xml" value="0.22" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/view_marker.xml" value="0.6" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/layout/view_photo_editor_text.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/mipmap-anydpi-v26/ic_chats_round.xml" value="0.105" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/mipmap-anydpi-v26/ic_circle.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/mipmap-anydpi-v26/ic_circle_round.xml" value="0.119" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.147" />
+        <entry key="..\:/Users/Stas/AndroidStudioProjects/BlinkWorld/app/src/main/res/mipmap-anydpi-v26/ic_settings.xml" value="0.1525" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

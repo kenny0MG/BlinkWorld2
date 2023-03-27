@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="67dip"
+    android:layout_height="78dip"
+    android:forceDarkAllowed="false"
+
+    >
+
+
+    <FrameLayout
+        android:layout_width="57dip"
+        android:layout_height="57dip"
+        android:background="@drawable/annotation_map_friend"
+        android:layout_gravity="center|bottom"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="3dp"
+       >
+
+
+    <ImageView
+        android:id="@+id/image_marker"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/image_chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/text_state_marker"
+        android:layout_width="50dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+
+        android:text="online"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/state_text"
+        android:layout_gravity="center|top"/>
+    <TextView
+        android:id="@+id/time_marker"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:visibility="gone"
+
+        android:fontFamily="@font/alata"
+        android:textColor="@color/white"
+        android:textSize="9dp"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+
+        android:background="@drawable/time_marker"
+        android:layout_gravity="left|bottom" />
+
+</FrameLayout>

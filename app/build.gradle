@@ -1,0 +1,106 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions'
+    id 'com.google.gms.google-services'
+
+
+}
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "org.robotics.blinkworld"
+        minSdk 24
+        targetSdk 32
+        versionCode 9
+        versionName "3.5.0.1"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation "androidx.core:core-ktx:1.8.0"
+    implementation "androidx.appcompat:appcompat:1.6.0"
+    implementation "com.google.android.material:material:1.8.0"
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+
+    // CameraX
+    implementation "androidx.camera:camera-core:1.2.1"
+    implementation "androidx.camera:camera-camera2:1.2.1"
+    implementation "androidx.camera:camera-lifecycle:1.2.1"
+    implementation "androidx.camera:camera-video:1.2.1"
+
+    implementation "androidx.camera:camera-view:1.2.1"
+    implementation "androidx.camera:camera-extensions:1.2.1"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:31.2.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'com.firebaseui:firebase-ui-database:8.0.1'
+
+    implementation 'com.arthenica:mobile-ffmpeg-min:4.4'
+
+
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+
+    implementation 'com.github.iammert:CameraVideoButton:0.2'
+
+
+
+    implementation 'com.mapbox.maps:android:10.11.0'
+    implementation ('com.mapbox.maps:android:10.11.0'){
+        exclude group: 'group_name', module: 'module_name'
+    }
+    implementation 'com.mapbox.plugin:maps-logo:10.2.0'
+    implementation 'com.mapbox.plugin:maps-compass:10.2.0'
+    implementation "com.mapbox.search:autofill:1.0.0-beta.44"
+    implementation "com.mapbox.search:discover:1.0.0-beta.44"
+    implementation "com.mapbox.search:mapbox-search-android:1.0.0-beta.44"
+    implementation "com.mapbox.search:mapbox-search-android-ui:1.0.0-beta.44"
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-identity:18.0.1'
+
+
+
+
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.15.1'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.15.1'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.15.1'
+
+
+    //code picker
+    implementation 'com.hbb20:ccp:2.4.2'
+}
+

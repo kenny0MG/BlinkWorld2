@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <TextureView
+        android:id="@+id/videoSurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:forceDarkAllowed="false"/>
+
+    <org.robotics.blinkworld.stories.photoeditor.PhotoEditorView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgClose"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgText"
+        android:layout_width="76dp"
+        android:layout_height="73dp"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/purple_500"
+        android:padding="8dp"
+        android:src="@drawable/ic_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="34dp"
+        android:padding="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/ivImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/imgDone"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/alata"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Send"
+        android:background="@drawable/gradient_list"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/full_screan_close_stories_video"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/ic_arrow_back_foreground"
+
+        android:translationZ="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

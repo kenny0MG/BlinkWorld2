@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:forceDarkAllowed="false"
+    >
+
+
+            <androidx.camera.view.PreviewView
+                android:id="@+id/view_finder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+
+            </androidx.camera.view.PreviewView>
+
+<!--    <TextView-->
+<!--        android:id="@+id/gallery_text_stories"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Gallery"-->
+<!--        android:layout_marginLeft="33dp"-->
+<!--        android:layout_marginBottom="35dp"-->
+<!--        android:fontFamily="@font/alata"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="23dp"-->
+
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+            <com.iammert.library.cameravideobuttonlib.CameraVideoButton
+                android:id="@+id/button"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cvb_recording_color="@color/yellow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="64dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/btnToggleCamera"
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="4dp"
+
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ic_rotate_foreground" />
+    <ImageView
+        android:id="@+id/full_screan_close_stories"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:translationZ="3dp"
+
+        android:src = "@drawable/ic_arrow_back_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

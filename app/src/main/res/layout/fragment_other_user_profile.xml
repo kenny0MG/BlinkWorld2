@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:forceDarkAllowed="false"
+    tools:context=".BottomFragmaent.UserProfile.Fragment.UserProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="25dp"
+            android:layout_height="2dp"
+            android:background="@drawable/line_round"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.021" />
+
+        <ImageView
+            android:id="@+id/other_user_photo_profile"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:foreground="@drawable/user_image_background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/person"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/other_user_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/alata"
+            android:maxWidth="300dp"
+            android:text="Never Dead"
+            android:textColor="@color/white"
+            android:textSize="55dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/other_user_profile_bio"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/other_user_profile_bio"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alata"
+            android:maxWidth="300dp"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/other_user_photo_profile"
+            app:layout_constraintEnd_toStartOf="@+id/add_friend_button_other_fragment"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/other_user_profile_name" />
+
+        <LinearLayout
+            android:id="@+id/linear_recycler"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/go_chat_other_user_button">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_user_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+
+                tools:layout_editor_absoluteY="85dp"
+                tools:listitem="@layout/friend_item" />
+
+            <TextView
+                android:id="@+id/doesnt_have_friend_text_view"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:text="That user doesn't have any friends yet("
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/button_other_text_view"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Your friend"
+            android:textColor="@color/line"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/go_chat_other_user_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/go_chat_other_user_button"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_friend_button_other_fragment"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/gradient_list"
+            android:fontFamily="@font/alata"
+            android:text="+Add"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/go_chat_other_user_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/go_chat_other_user_button"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/go_chat_other_user_button"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/message_button"
+            android:fontFamily="@font/alata"
+            android:text="Send messages"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.105"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/other_user_photo_profile" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

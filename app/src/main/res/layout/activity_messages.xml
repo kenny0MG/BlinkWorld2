@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="false"
+    tools:context=".Activity.Messages.MessagesActivity">
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="408dp"
+        android:layout_height="0.5dp"
+        android:background="@color/line"
+
+        app:layout_constraintBottom_toTopOf="@+id/refresh_chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/refresh_chat" />
+    <ImageView
+        android:id="@+id/full_screan_close_chat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="18dp"
+        android:translationZ="3dp"
+
+        android:src = "@drawable/ic_arrow_back_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_chat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/messages_recycle_adapter"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:foreground = "@drawable/chat_background"
+            android:background="@color/black"
+
+
+            />
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/text_name_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="73dp"
+        android:alpha="0.7"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:maxWidth="250dp"
+        app:layout_constraintBottom_toBottomOf="@+id/user_profile_chat"
+        app:layout_constraintEnd_toStartOf="@+id/user_profile_chat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/user_profile_chat" />
+
+    <ImageView
+        android:id="@+id/user_profile_chat"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:alpha="0.9"
+        android:background="@drawable/image_chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="4dp">
+
+
+            <EditText
+                android:id="@+id/chattext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toStartOf="@id/sendmsg"
+                android:maxLength="2000"
+                android:layout_toEndOf="@+id/camera_image_button"
+                android:background="@drawable/edit_text_send_message"
+                android:fontFamily="@font/alata"
+                android:hint="Send message..."
+                android:minHeight="40dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="3dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="3dp"
+
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/line"
+                android:textSize="19dp">
+
+
+            </EditText>
+
+            <ImageView
+                android:id="@+id/camera_image_button"
+                android:layout_width="50dp"
+                android:layout_height="40dip"
+                android:layout_marginStart="0dp"
+
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/round_icon"
+
+                android:visibility="visible"
+                app:srcCompat="@mipmap/ic_camera_foreground" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sendmsg"
+                android:layout_width="53dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/gradient_list"
+                android:fontFamily="@font/alata"
+                android:text="Send"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+
+
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

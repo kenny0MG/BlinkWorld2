@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BottomFragmaent.StoriesVideoView.Fragment.VideoStoriesFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <ImageView
+            android:id="@+id/itemVideoPlayerThumbnail_posts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/empty_box"
+            android:translationZ="1dp" />
+
+        <ImageView
+            android:id="@+id/full_screan_avatar_video"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/image_chat"
+            android:translationZ="3dp"
+            app:layout_constraintBottom_toBottomOf="@+id/full_screan_close_video"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/full_screan_close_video"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:translationZ="3dp"
+
+            android:src = "@drawable/ic_arrow_back_foreground"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/full_screen_video_player"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:auto_show="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:repeat_toggle_modes="all"
+            app:resize_mode="zoom"
+            app:surface_type="texture_view"
+            app:use_controller="false" >
+
+
+        </com.google.android.exoplayer2.ui.PlayerView>
+
+        <TextView
+            android:id="@+id/name_full_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:maxWidth="300dp"
+            android:paddingRight="8dp"
+            android:text="BlinkBlink"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:translationZ="3dp"
+            android:layout_marginLeft="10dp"
+
+            app:layout_constraintBottom_toBottomOf="@+id/full_screan_avatar_video"
+            app:layout_constraintStart_toEndOf="@+id/full_screan_avatar_video"
+            app:layout_constraintTop_toTopOf="@+id/full_screan_avatar_video" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:forceDarkAllowed="false"
+    android:background="?android:selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/photo_friend_item"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/image_chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/username_friend_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/alata"
+        android:text="svetlana"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/photo_friend_item"
+        app:layout_constraintStart_toEndOf="@+id/photo_friend_item"
+        app:layout_constraintTop_toTopOf="@+id/photo_friend_item" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_friend_button"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@drawable/gradient_list"
+        android:fontFamily="@font/alata"
+        android:layout_marginRight="16dp"
+        android:visibility="gone"
+        android:text="+Add"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/username_friend_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/username_friend_item" />
+
+    <TextView
+        android:id="@+id/your_friend_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your friend"
+        android:layout_marginRight="18dp"
+        android:textColor="@color/line"
+        android:fontFamily="@font/alata"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/username_friend_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/username_friend_item" />
+    <TextView
+        android:id="@+id/its_you_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Its you"
+        android:layout_marginRight="18dp"
+        android:textColor="@color/line"
+        android:fontFamily="@font/alata"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/username_friend_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/username_friend_item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
