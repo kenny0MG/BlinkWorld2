@@ -1,4 +1,4 @@
-name: Kotlin Syntax Check
+name: Kotlin_Syntax_Check
 
 on:
   push:
