@@ -1,25 +1,23 @@
-name: Kotlin_Syntax_Check
+name: Python_pipeline
 
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
-  build:
+  checkstyle_project:
+#    needs: name_jobs
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Git clone repo
+        uses: actions/checkout@v2
 
-    - name: Setup JDK
-      uses: actions/setup-java@v1
-      with:
-        java-version: 11
+      - name: Setup JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
 
-    - name: Run detekt
-      run: ./gradlew detektCheck
+      - name: Run detekt
+        run: ./gradlew detektCheck
